@@ -1,0 +1,248 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    color: #666;
+    font-size: 12px;
+    font-family: Arial;
+    background:url("../images/login_bg_m1.jpg") no-repeat center top;
+}
+a{
+    color: #f69;
+    text-decoration: none;
+}
+.wrap{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.wrap .inner_wrap{
+    width: 980px;
+    margin: 0 auto;
+}
+.wrap .head{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    display: block;
+}
+.wrap .head .one{
+    background:url("../images/register_logo.png") no-repeat;
+    display: inline-block;
+    width: 157px;
+    height: 56px;
+    margin-right: 25px;
+}
+.wrap .head .two{
+    background:url("../images/register_wel_m.png") no-repeat;
+    display: inline-block;
+    width: 336px;
+    height: 50px;
+}
+.wrap .main {
+    background-color: #fff;
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-left: 80px;
+    overflow:hidden;
+}
+.wrap .main_left{
+    float:left;
+}
+.wrap .main_right{
+    float: right;
+    width: 320px;
+    margin-right: 30px;
+}
+.wrap .dengLu h3{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.wrap .dengLu .dengLu_main{
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+.wrap .dengLu .dengLu_main a{
+    float: left;
+    width: 100px;
+    height: 35px;
+    background: url("../images/login_fast_new.png") no-repeat;
+}
+.wrap .dengLu .dengLu_main a.qq{
+    background-position: 0 -120px;
+}
+.wrap .dengLu .dengLu_main a.wx{
+    background-position: 0 -160px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.wrap .dengLu .dengLu_main a.wb{
+    background-position: 0 -200px;
+}
+.wrap .more{
+    overflow:hidden;
+    clear:both;
+    padding-bottom: 25px;
+    line-height: 26px;
+}
+.wrap .more h4{
+    float: left;
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: normal;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+.wrap .more .more_ico{
+    float: left;
+    /*display:none;*/
+}
+.wrap .more .more_ico a{
+    background: url("../images/login_icon-4.png") no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: 7px;
+    vertical-align: middle;
+}
+.wrap .more .more_ico a.txweibo{
+    background-position: -125px -25px;
+}
+.wrap .more .more_ico a.douban{
+    background-position: -100px -25px;
+}
+.wrap .more .more_ico a.renren{
+    background-position: -150px -25px;
+}
+.wrap .more .more_ico a.baidu{
+    background-position: -75px -25px;
+}
+
+.wrap .main_right form h3{
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.wrap .main_right form h3 a{
+    color: #f69;
+    text-decoration: underline;
+    float: right;
+    font-weight: normal;
+    padding-right: 3px;
+}
+.wrap .main_right form .list{
+    min-height: 68px;
+}
+.wrap .main_right form .list p{
+    line-height: 30px;
+}
+.wrap .main_right form .list .list_box{
+    position:relative;
+}
+input, textarea {
+    resize: none;
+    outline: 0;
+    font-family: Arial;
+    word-wrap: break-word;
+}
+.wrap .main_right form .list_txt{
+    width: 280px;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #ddd;
+    color: #999;
+    padding-left: 35px;
+}
+.wrap .main_right form .bt{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 6px;
+    right: -30px;
+}
+.wrap .main_right form .error{
+    background: url("../images/login_icon-4.png") no-repeat -25px -25px;
+    /*display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 6px;
+    right: -30px;*/
+}
+.wrap .main_right form .ok {
+    background: url("../images/login_icon-4.png") no-repeat -50px -25px;
+    /*display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 6px;
+    right: -30px;*/
+}
+.wrap .main_right form .tel{
+    background: url("../images/login_icon-4.png") no-repeat -75px 0;;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 6px;
+    left: 5px;
+}
+.wrap .main_right form .error_txt{
+    color: #f69;
+    line-height: 30px;
+    display:none;
+}
+
+.wrap .main_right form .nam{
+    background: url("../images/login_icon-4.png") no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-position: 0 0;
+    top: 6px;
+    left: 5px;
+}
+.wrap .main_right form .pwd{
+    background: url("../images/login_icon-4.png") no-repeat;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-position: -25px 0;
+    top: 6px;
+    left: 5px;
+}
+.wrap .submit{
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    text-align: center;
+    border: 0;
+    width: 320px;
+    height: 46px;
+    background-color: #f69;
+    line-height: 46px;
+    cursor: pointer;
+}
+.wrap .agree{
+    padding-top: 12px;
+    padding-bottom: 20px;
+    color: #999;
+    border-bottom: 1px dotted #ccc;
+}
+
+.ty{
+    color: #f69;
+}
+.wrap .main_right form .list .list_box input.br{
+    border:1px solid #f69;
+}
+.pwd_ok{
+    display:none;
+}
+
+
